@@ -1,6 +1,6 @@
-let grade = 40;
+let grade = 80;
 
-if (grade >=80){
+if (grade >=80 && grade <=100){
     console.log("You got an A");
 }
 else if(grade >= 65 && grade < 80){
@@ -9,9 +9,10 @@ else if(grade >= 65 && grade < 80){
 else if(grade >= 50 && grade < 65){
     console.log("You passed");
 }
-else if (grade < 50){
+else if (grade < 50 && grade >= 0){
     console.log("You failed the test");
 }
 else{
-    console.log("Check input");
+    console.log("The grade should be between 0 and 100");
 }
+
